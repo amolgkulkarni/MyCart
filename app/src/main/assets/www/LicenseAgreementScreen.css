@@ -1,0 +1,70 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.LicenseAgreementScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* html_2 */
+.LicenseAgreementScreen_html_2 {
+	margin: 8px 5px 8px 5px;
+	font-weight: normal;
+	width: auto; height: auto;
+}
+div.LicenseAgreementScreen_html_2 {
+	overflow: auto;
+}
+/* EULABackButton */
+#LicenseAgreementScreen_EULABackButton {
+
+}
+.ui-btn.LicenseAgreementScreen_EULABackButton {
+	margin: 4px 5px 4px 5px;
+}
+/* EULAAcceptButton */
+#LicenseAgreementScreen_EULAAcceptButton {
+
+}
+.ui-btn.LicenseAgreementScreen_EULAAcceptButton {
+	margin: 0px 5px 4px 5px;
+}
+/* html_5 */
+.LicenseAgreementScreen_html_5 {
+	margin: 8px 5px 8px 5px;
+	font-weight: normal;
+	display: none;
+	width: 250px; height: 50px;
+}
+div.LicenseAgreementScreen_html_5 {
+	overflow: auto;
+}
+/* mobilefooter */
+.LicenseAgreementScreen_mobilefooter {
+	min-height:38px;
+}
+/* mobilegrid_3 */
+.LicenseAgreementScreen_mobilegrid_3 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.LicenseAgreementScreen_mobilegrid_3 > tr > td {
+	vertical-align: top;
+}
+.LicenseAgreementScreen_mobilegrid_3_row_0, .LicenseAgreementScreen_mobilegrid_3_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_4 */
+.LicenseAgreementScreen_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.LicenseAgreementScreen_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}

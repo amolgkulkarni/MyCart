@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OfficeShopper</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_terms">Terms of use</string>
+    <string name="title_activity_auth">Authorization</string>
+    <string name="title_activity_login">Log on</string>
+    <string name="title_activity_home">OfficeShopper</string>
+
+    <string name="back">Back</string>
+    <string name="error">Error!</string>
+    <string name="positive_button">OK</string>
+
+    <string name="accept_button">Accept</string>
+    <string name="network_alert_title">Network error</string>
+    <string name="network_alert_message">Please check your internet connection and try again.</string>
+    <string name="network_tryagain">Try again</string>
+
+    <string name="auth_desc">Please enter authorization code to begin shopping. You will need to complete this step one time</string>
+    <string name="auth_placeholder">Authorization Code</string>
+    <string name="proceed_button">Proceed to Login</string>
+    <string name="auth_assistance">Need Assistance? Please contact us to obtain this code</string>
+    <string name="auth_version">App Version Number </string>
+    <string name="auth_terms"><u>Terms of use</u></string>
+    <string name="auth_error">Please enter a valid Authorization Code to continue. Contact us to get this code.</string>
+
+    <string name="username">Username</string>
+    <string name="username_placeholder">enter username</string>
+    <string name="password">Password</string>
+    <string name="password_placeholder">enter password</string>
+    <string name="show_password">Show Password</string>
+    <string name="login_button">Enter</string>
+    <string name="forgot_password"><a href="https://www.ecinteractiveplus.com/mobile_plus_spr/Authentication/ForgotPassword">Forgot Password?</a></string>
+
+    <!-- Homescreen Grid Items -->
+    <string-array name="homescreen_items">
+        <item >Shop</item>
+        <item >Scan</item>
+        <item >Cart</item>
+        <item >Favorites</item>
+        <item >Your Account</item>
+        <item >Log Off</item>
+    </string-array>
+
+    <!-- Homescreen Grid Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="homescreen_icons">
+        <item>@drawable/search</item>
+        <item>@drawable/smart_phone</item>
+        <item>@drawable/shopping_cart</item>
+        <item>@drawable/star</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/games</item>
+    </array>
+
+   <string name="clear_cart">Clear Cart</string>
+   <string name="continue_shopping">Continue Shopping</string>
+   <string name="checkout">Checkout</string>
+   <string name="items">Items : </string>
+
+
+    <string name="user_info">Your Information</string>
+    <string name="contact_info">Contact Us</string>
+    <string name="device_info">Device Information</string>
+    <string name="home">Home</string>
+    <string name="user_name"><b>User Name: </b></string>
+    <string name="address"><b>Address: </b></string>
+    <string name="phone"><b>Phone: </b></string>
+    <string name="email"><b>Email: </b></string>
+    <string name="model"><b>Model:</b></string>
+    <string name="dimensions"><b>Dimensions </b></string>
+    <string name="webkit"><b>Webkit Version: </b></string>
+    <string name="os_name"><b>OS Name and Version: </b></string>
+
+    <string name="scan_placeholder">Tap to scan</string>
+    <string name="clear">Clear</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+
+</resources>

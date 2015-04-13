@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:orientation="vertical" android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar" />
+
+    <eci.officeshopper.widgets.ListenerFrameLayout
+        android:id="@+id/details_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+    </eci.officeshopper.widgets.ListenerFrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/drawer_container"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#cc333333"
+        android:clickable="true">
+</FrameLayout>
+</FrameLayout>
